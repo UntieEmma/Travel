@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ExploreWorld</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <img src="images/images.jpg" alt="ExploreWorld Logo"  width="90">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="mission">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>At ExploreWorld, our mission is to inspire and empower travelers to explore the world, create unforgettable memories, and foster cultural understanding.</p>
+            </div>
+        </section>
+        <section id="history">
+                <div class="container">
+                    <h2>Our History</h2>
+                    <p>Established in 1966, ExploreLesotho has been dedicated to showcasing the beauty and cultural richness of Lesotho for over half a century. From its inception as a local tour operator, we have grown into a leading authority on travel in Lesotho, offering unparalleled experiences to visitors from around the globe.</p>
+                </div>
+            </section>
+            <section id="team">
+                <div class="container">
+                    <h2>Our Team</h2>
+                    <p>Our team comprises passionate individuals deeply connected to Lesotho's landscapes, culture, and heritage. From experienced guides to enthusiastic customer service representatives, each member is committed to ensuring that every traveler's journey with ExploreLesotho is filled with authenticity, adventure, and unforgettable moments.</p>
+                </div>
+            </section>
+            <section id="achievements">
+                <div class="container">
+                    <h2>Our Achievements</h2>
+                    <p>Over the years, ExploreLesotho has garnered recognition for its dedication to excellence in promoting Lesotho as a premier travel destination. Some of our notable achievements include:</p>
+                    <ul>
+                        <li>Recipient of the Lesotho Tourism Excellence Award</li>
+                        <li>Featured in National Geographic's Best of Lesotho</li>
+                        <li>Rated as one of the Top Adventure Tour Operators by Adventure Travel Trade Association</li>
+                    </ul>
+                </div>
+            </section>
+            
+    </main>
+    <footer>
+        <div class="container1">
+            <p>&copy; 2024 ExploreWorld. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+<style>
+
+body, header, nav, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #46344e;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 25px;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+nav ul li a.active {
+    color: #ff9800;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.container1 h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.container1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.container1 ul {
+    margin-left: 20px;
+}
+
+.container1 ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #46344e;
+    color: #fff;
+    text-align: left;
+    padding: 5px 0;
+    border-radius: 25px;
+    
+}
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+}#mission,
+#history,
+#team,
+#achievements {
+    opacity: 0; 
+    transform: scale(0.5); 
+    animation: easeFromInside 0.5s ease forwards; 
+}
+
+@keyframes easeFromInside {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+</style>

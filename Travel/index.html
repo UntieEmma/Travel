@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld | Your Ultimate Travel Destination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/images.jpg" alt="DiscoverLesotho Logo" width="90">
+            <h1 class="animated-heading">DiscoverLesotho</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+            <section id="featured">
+                    <h2>Featured Destinations in Lesotho</h2>
+                    <div class="container">
+                        <div class="destination">
+                            <img src="images/download.jfif" alt="Thaba-Bosiu" width="300" height="240">
+                            <h3>Thaba-Bosiu</h3>
+                            <p>Discover the historical significance of Thaba-Bosiu, the sandstone plateau fortress that served as the stronghold of King Moshoeshoe I.</p>
+                        </div>
+                        <div class="destination">
+                            <img src="images/download (1).jfif" alt="Sani Pass" width="300" height="240">
+                            <h3>Sani Pass</h3>
+                            <p>Embark on an adventurous journey through the rugged terrain of Sani Pass, offering stunning views of the Drakensberg Mountains and connecting Lesotho with South Africa.</p>
+                        </div>
+                        <div class="destination">
+                            <img src="images/download (5).jfif" alt="Maletsunyane Falls" width="300" height="240">
+                            <h3>Maletsunyane Falls</h3>
+                            <p>Experience the awe-inspiring beauty of Maletsunyane Falls, one of the highest single-drop waterfalls in Southern Africa, plunging into a scenic gorge below.</p>
+                        </div>
+                    </div>
+                </section>
+                
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ExploreWorld. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+#featured {
+    background-color: #f2f2f2; 
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.destination {
+    width: calc(33.333% - 20px); 
+    margin: 0 10px;
+    float: left; 
+    background-color: #add8e6; 
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.destination img {
+    width: 100%; 
+    border-radius: 5px; 
+}
+
+.destination h3 {
+    margin-top: 20px; 
+    font-size: 25px;
+}
+
+.destination p {
+    margin-top: 10px; 
+    font-size: 20px;
+}
+
+h2 {
+    background-color: #add8e6 ; 
+    color: #fff; 
+    padding: 10px 20px;
+    margin-top: 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+    text-align: center;
+}
+/* Header styles */
+header {
+    background-color: #46344e;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 9px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    animation: slideRight 1s ease-in;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    text-align: right; 
+}
+
+nav {
+    text-align: left; 
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a.active {
+    color: #ff9800;
+}
+footer {
+    background-color: #46344e; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0; 
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+}
+</style>

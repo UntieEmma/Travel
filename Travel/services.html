@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - ExploreWorld</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <img src="images/images.jpg" alt="ExploreWorld Logo"  width="90">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+            <section id="services">
+                    <div class="container">
+                        <h2>Our Services in Lesotho</h2>
+                        <div class="service">
+                            <h3>Trekking Tours</h3>
+                            <p>Embark on thrilling trekking tours through Lesotho's rugged landscapes and majestic mountains. Explore scenic trails, encounter local wildlife, and experience the rich culture of the Basotho people.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Homestay Accommodation</h3>
+                            <p>Experience authentic Basotho hospitality with our homestay accommodation options. Stay with local families, participate in cultural activities, and immerse yourself in Lesotho's traditional way of life.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Cultural Experiences</h3>
+                            <p>Discover the vibrant culture of Lesotho through our cultural experiences. Attend traditional ceremonies, learn about Basotho traditions, and engage with local artisans to gain insight into the country's rich heritage.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Adventure Activities</h3>
+                            <p>Embark on adrenaline-pumping adventure activities in Lesotho's natural playground. From river rafting and rock climbing to pony trekking and quad biking, there's no shortage of thrilling adventures to experience.</p>
+                        </div>
+                    </div>
+                </section>
+                
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ExploreWorld. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+<style>
+
+body, header, nav, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #46344e;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 25px;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a.active {
+    color: #ff9800;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.service {
+    margin-bottom: 40px;
+    opacity: 0; 
+    transform: translateY(-50px); 
+    animation: slideFromTop 0.5s ease forwards; 
+}
+
+@keyframes slideFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #46344e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+p {
+    margin: 0; 
+    font-size: 20px;
+}
+footer {
+    background-color: #46344e; 
+    color: #fff; 
+    text-align: left;
+    padding: 20px 0; 
+    border-radius: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+p {
+    margin: 0;
+</style>
